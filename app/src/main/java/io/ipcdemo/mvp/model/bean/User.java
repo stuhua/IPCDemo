@@ -7,39 +7,38 @@ import java.io.Serializable;
  */
 
 public class User implements Serializable {
-    private String mName;
-    private int mAge;
-    private String mSex;
+    private String name;
+    private int age;
+    private String sex;
     private static final long serialVersionUID = 518789897897897L;
 
-    public String getmName() {
-        return mName;
+    public User(String name, int age, String sex) {
+        this.name = name;
+        this.age = age;
+        this.sex = sex;
     }
 
-    public int getmAge() {
-        return mAge;
+    public String getName() {
+        return name;
     }
 
-    public String getmSex() {
-        return mSex;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void setmName(String mName) {
-        this.mName = mName;
+    public int getAge() {
+        return age;
     }
 
-    public void setmAge(int mAge) {
-        this.mAge = mAge;
+    public void setAge(int age) {
+        this.age = age;
     }
 
-    public void setmSex(String mSex) {
-        this.mSex = mSex;
+    public String getSex() {
+        return sex;
     }
 
-    public User(String mName, int mAge, String mSex) {
-        this.mName = mName;
-        this.mAge = mAge;
-        this.mSex = mSex;
+    public void setSex(String sex) {
+        this.sex = sex;
     }
-
 }
