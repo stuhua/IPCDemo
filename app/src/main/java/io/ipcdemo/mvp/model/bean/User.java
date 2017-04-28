@@ -1,4 +1,4 @@
-package io.ipcdemo.mvp.model;
+package io.ipcdemo.mvp.model.bean;
 
 import java.io.Serializable;
 
