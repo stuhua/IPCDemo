@@ -10,6 +10,7 @@ public class User implements Serializable {
     private String mName;
     private int mAge;
     private String mSex;
+    private static final long serialVersionUID = 518789897897897L;
 
     public String getmName() {
         return mName;
